@@ -14,10 +14,10 @@
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 </head>
 
-<body class="bg-[url(emerald creative new.jpg)] bg-cover bg-size-[500px]">
+<body>
     <div class="flex flex-row items-center justify-between p-5 bg-linear-to-bl from-violet-500 to-fuchsia-500">
-        <img src="20250504_023755.png" alt="damn" class="object-fit-cover w-[10%] h-[]">
-        <div class=" space-x-5">
+        <img src="20250504_023755.png" alt="damn" class="object-cover w-[10%] sm:w-[23%] md:w-[10%]">
+        <div class="space-x-5 sm:hidden md:block">
             <a
                 class="border-[#FF9900] text-black hover:bg-white hover:text-gray-300 bg-white px-2 py-2 rounded-md">About</a>
             <a
@@ -33,54 +33,123 @@
             class="border-2 border-black text-white hover:bg-white hover:border-black hover:text-gray-300 bg-black font-bold px-3 py-3 rounded-md">Bookings
         </a>
     </div>
-    <div class="flex justify-between gap-50 p-4 bg-linear-to-bl from-gray-100 to-white mt-10">
-        <div class="pl-5">
-            <h3
-                class="font-bold font-sans-serif text-center text-transparent p-4 text-[40px] font-bold hover:text-gray-500">
-                ABOUT US</h3>
-            <p class="text-[25px] leading-tight">Welcome to
-                <strong> SAMWHALE IMAGERY</strong>,a group of professionals.
-                Our areas of specialization are:
+    <div class="m-2 bg-blue-100">
+        <h3 class="font-bold font-sans-serif text-center p-4 text-[40px] font-bold hover:text-gray-500">
+            ABOUT US</h3>
+        <div
+            class="flex sm:flex-col md:flex-row justify-between gap-50 sm:gap-20 md:gap-50 p-4 bg-linear-to-bl from-gray-100 to-white mt-5 ">
+
+            <div class="pl-5">
+                <p class="text-[25px] leading-tight">Welcome to
+                    <strong> SAMWHALE IMAGERY</strong>,a group of professionals.
+                    Our areas of specialization are:
+                    <br>
+                <ul class="font-bold text-[20px] font-sans">
+                    <li>&rarr;PORTRAIT</li>
+                    <li>&rarr;EVENTS</li>
+                    <li>&rarr;LIFESTYLE</li>
+                    <li>&rarr;DOCUMENTARY</li>
+                </ul>
+                <span class="text-[20px]">Where we create amazing memories from life’s precious moments through the lens
+                    of our camera.
+
+                    Our mission is to provide timeless,vibrant and world standard artworks.
+
+                    We believe that every moment is worth documenting and our goal is to help our prestigious clients
+                    create
+                    images that live..
+                </span>
+                </p>
                 <br>
-            <ul class="font-bold text-[20px] font-sans">
-                <li>&rarr;PORTRAIT</li>
-                <li>&rarr;EVENTS</li>
-                <li>&rarr;LIFESTYLE</li>
-                <li>&rarr;DOCUMENTARY</li>
-            </ul>
-            <span class="text-[20px]">Where we create amazing memories from life’s precious moments through the lens
-                of our camera.
-
-                Our mission is to provide timeless,vibrant and world standard artworks.
-
-                We believe that every moment is worth documenting and our goal is to help our prestigious clients
-                create
-                images that live..
-            </span>
-            </p>
-            <br>
-            <span class="">
-                <a href=""
-                    class="border-1 px-3 py-2 text-white text-[18px] font-normal hover:bg-green-200 hover:text-black bg-linear-to-bl from-violet-500 to-fuchsia-500">Contact
-                    Us</a>
-                <button href=""
-                    class="border-2 border-linear-to-bl from-violet-500 to-fuchsia-500 px-3 py-2 hover:bg-blue-300">Book
-                    with Us</button>
-            </span>
+                <span class="">
+                    <a href=""
+                        class="border-1 px-3 py-2 text-white text-[18px] font-normal hover:bg-green-200 hover:text-black bg-linear-to-bl from-violet-500 to-fuchsia-500">Contact
+                        Us</a>
+                    <button href=""
+                        class="border-2 border-linear-to-bl from-violet-500 to-fuchsia-500 px-3 py-2 hover:bg-blue-300">Book
+                        with Us</button>
+                </span>
+            </div>
+            <div class="bg-white rounded-md">
+                <span class="flex">
+                    <img src="vdfr_32b2c6ea.jpg" alt="" class="w-[50%] h-[100%] rounded-md">
+                    <img src="IMG_3865.JPG" alt="" class="w-[50%] h-[100%] rounded-md">
+                </span>
+            </div>
         </div>
-        <div class="bg-white rounded-md">
-            <span class="flex">
-                <img src="vdfr_32b2c6ea.jpg" alt="" class="w-[50%] h-[100%] rounded-md">
-                <img src="IMG_3865.JPG" alt="" class="w-[50%] h-[100%] rounded-md">
-            </span>
-        </div>
-
     </div>
-    <div class="flex flex-row mt-5 justify-center items-center">
+    <div class="flex sm:flex-col md:flex-row mt-5 justify-center items-center">
         <div>
-            <img src="Screenshot_20250522_094943_Chrome.jpg" alt="" class="w-[30%] h-[30%]">
+            <div id="default-carousel" class="relative " data-carousel="slide">
+                <div class="relative w-100 h-100 overflow-hidden rounded-lg md:h-100">
+                    <div class=" duration-700 ease-in-out" data-carousel-item>
+                        <img src="494888724_17963792756868969_2212572242576103799_n.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="Screenshot_20250522_094951_Chrome.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="491442297_17961896447868969_9200776772705516161_n.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="484728694_17958872393868969_4678798420782493403_n.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="491414197_17961896468868969_8070922236562835208_n.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+
+                </div>
+
+                <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                        data-carousel-slide-to="2"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                        data-carousel-slide-to="3"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                        data-carousel-slide-to="4"></button>
+                </div>
+
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
         </div>
-        <div>
+
+        <div class="sm:p-5 ">
             <p class="text-[40px]">Why Choose Us <span>
                     <ul>
                         <li>&rarr;Professional equipment and expertise</li>
@@ -102,7 +171,7 @@
                 </span>
             </p>
         </div>
-
+    </div>
     </div>
     <div class="mt-5 cursor:pointer">
         <p class="p-15 text-center text-black text-[40px] font-bold hover:text-linear-to-bl from-gray-100 to-white ">
@@ -179,53 +248,56 @@
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31652.633291725488!2d3.873615560679764!3d7.400959935251874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039ede8da76eead%3A0x989650dcbb9b3950!2sThe%20Immaculate%20Group!5e0!3m2!1sen!2sng!4v1747986318363!5m2!1sen!2sng"
             width="1890" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerpolicy="no-referrer-when-downgrade " class="sm:w-173 md:w-474"></iframe>
     </div>
-    <div class="flex flex-row justify-center items-center gap-3 mt-3">
+    <div class="flex flex-row justify-center items-center gap-3 mt-3 sm:p-3 md:p-none">
         <form class="">
-            <input type="mail" placeholder="Email" class="border-3 pr-50 pt-5 pb-5 text-[20px] pl-3">
-            <input type="field" placeholder="Message" class="border-3 pr-50 pt-5 pb-5 text-[20px] pl-3">
+            <input type="mail" placeholder="Email" class="border-3 pr-50 pt-5 pb-5 text-[20px] pl-3 ">
+            <input type="field" placeholder="Message"
+                class="border-3 pr-50 pt-5 pb-5 text-[20px] pl-3 sm:mt-3 md:mt-none">
         </form>
         <div>
             <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=SamwhaleImagery@gmail.com"
                 class="border bg-linear-to-bl from-violet-500 to-fuchsia-500 px-4 py-3 text-gray-300">Submit</a>
         </div>
     </div>
-    <div class="bg-linear-to-bl from-violet-500 to-fuchsia-500 flex flex-row items-center justify-between mt-5 p-8">
-        <img src="20250504_023755.png" alt="" class="w-[20%] h-[10%]">
+    <div class="bg-linear-to-bl from-violet-500 to-fuchsia-500 flex sm:flex-col md:flex-row md:items-center md:justify-between mt-5 p-8">
+        <img src="20250504_023755.png" alt="" class="w-[20%] h-[10%] sm:hidden md:block">
         <div>
-            <p class="text-[28px] font-bold text-white">Contact
+            <p class="text-[28px] sm:text-[23px] md:text-[28px] font-bold text-white ">Contact
                 <span class="mt-2">
-                    <p class="text-[20px] text-blue-50"><i class="las la-phone text-blue-200 text-[24px]"></i>: +234
+                    <p class="text-[20px] text-blue-50"><i class="las la-phone text-blue-200 text-[24px] sm:text-[17px] md:text-[24px]"></i>: +234
                         906 603 7673</p>
                     <p class="text-[20px] text-blue-50 hover:underline"><i
-                            class="las la-envelope text-blue-200 text-[24px]"></i>: SamwhaleImagery@gmail.com</p>
-                    <p class="text-[20px] text-blue-50"><i class="las la-map-marker text-blue-200 text-[24px]"></i>:
+                            class="las la-envelope text-blue-200 text-[24px] sm:text-[17px] md:text-[24px]"></i>: SamwhaleImagery@gmail.com</p>
+                    <p class="text-[20px] text-blue-50"><i class="las la-map-marker text-blue-200 text-[24px] sm:text-[17px] md:text-[24px]"></i>:
                         Aare Bodija</p>
                 </span>
             </p>
         </div>
         <div>
-            <p class="text-[28px] font-bold text-white">Socials
-                <span class="block border px-2 py-1">
+            <p class="text-[28px] sm:text-[23px] md:text-[28px] font-bold text-white">Socials
+                <span class="block border-blue-300 px-2 py-1">
                     <a href="https://www.facebook.com/share/1VCh5mfJTH/?mibextid=wwXIfr"><i
-                            class="lab la-facebook-f text-[24px] hover:text-blue-800"></i></a>
+                            class="lab la-facebook-f text-[24px] hover:text-blue-800 bg-blue-300 sm:py-1 md:py-none sm:px-2 md:px-none"></i></a>
                     <a href="https://www.instagram.com/samwhale_imagery.ng?igsh=aXZxOTYza3N6Z3c3&utm_source=qr"> <i
-                            class="lab la-instagram text-[24px] hover:text-blue-800"></i></a>
+                            class="lab la-instagram text-[24px] hover:text-blue-800 bg-blue-300 sm:px-2 md:px-none sm:py-1 md:py-none"></i></a>
                     <a href="https://wa.me/message/GOORHE75OJ2XO1"> <i
-                            class="lab la-whatsapp text-[24px] hover:text-blue-800"></i></a>
+                            class="lab la-whatsapp text-[24px] hover:text-blue-800 bg-blue-300 sm:px-2 md:px-none sm:py-1 md:py-none"></i></a>
 
                 </span>
             </p>
         </div>
-        <p class="text-[28px] font-bold text-white">What we do
-            <span>
-                <p></p>
-                <p></p>
-                <p></p>
+        <div>
+            <p class="text-[28px] sm:text-[20px] md:text-[28px] font-bold text-white">What we do
+                <span>
+                    <p></p>
+                    <p></p>
+                    <p></p>
 
-            </span>
-        </p>
+                </span>
+            </p>
+        </div>
     </div>
 
 
