@@ -16,9 +16,9 @@
 
 <body class="w-[100%]">
     <div
-        class="flex flex-row items-center justify-center p-2 bg-linear-to-bl from-gray-300 to-gray-600 sm:gap-10 md:gap-120 sm:h-full md:w-full md:sticky mg:top-0 md:w-full md:z-50">
-        <img src="20250504_023755.png" alt="damn" class="object-cover w-[10%] sm:w-[23%] md:w-[7%] ">
-        <div class="space-x-9 sm:w-full md:w-full sm:hidden md:block">
+        class="flex flex-row items-center justify-center p-2 bg-linear-to-bl from-gray-300 to-gray-600 gap-60 sm:gap-10 md:gap-120 sm:h-full md:w-full md:sticky mg:top-0 md:w-full md:z-50">
+        <img src="20250504_023755.png" alt="damn" class="object-cover w-[20%] sm:w-[23%] md:w-[7%] ">
+        <div class=" sm:space-x-9 hidden sm:w-full md:w-full sm:hidden md:block">
             <a
                 class="border-[#FF9900] text-black hover:bg-white hover:text-gray-300 bg-white px-2 py-2 rounded-md">About</a>
             <a
@@ -38,10 +38,10 @@
         ABOUT US</h3>
  -->
     <div
-        class="md:bg-[url(pexels-padrinan-194096.jpg)] sm:bg-[url(pexels-padrinan-194096.jpg)] md:bg-cover md:bg-no-repeat md:bg-size-[100%] flex sm:flex-col md:flex-row justify-between gap-50 sm:gap-20 md:gap-50 p-4 ">
+        class="relative bg-hidden sm:bg-[url(pexels-padrinan-194096.jpg)] md:bg-cover md:bg-no-repeat md:bg-size-[100%] flex flex-col sm:flex-col md:flex-row justify-between gap-50 sm:gap-20 md:gap-50 p-4 ">
 
-        <div class="pl-5 p-10">
-            <p class="text-[25px] leading-tight md:text-white sm:text-gray-500 font-serif ">Welcome to
+        <div class="pl-1 p-3 sm:pl-5 sm:p-10 ">
+            <p class="text-[20px] sm:text-[25px] sm:leading-tight md:text-white sm:text-gray-500 font-serif ">Welcome to
                 <strong> SAMWHALE IMAGERY</strong>,a group of professionals.
                 Our areas of specialization are:
                 <br>
@@ -64,21 +64,32 @@
             </span>
             </p>
             <br>
-            <span class="gap-3">
+            <span class="gap-20 sm:gap-3">
                 <a href="tel:+2349066037673"
                     class="px-3 py-2 text-white text-[18px] font-normal hover:bg-green-200 hover:text-black bg-linear-to-bl shadow-fuchsia-500 shadow-sm from-violet-500 to-fuchsia-500">Contact
                     Us</a>
                 <a href="https://www.instagram.com/samwhale_imagery.ng?igsh=aXZxOTYza3N6Z3c3&utm_source=qr"
-                    class=" border-3 border-from-violet-500 to-fuchsia-500 shadow-fuchsia-500 shadow-sm text-blue-100 px-3 py-2 hover:bg-blue-300">Book
+                    class=" border-3 border-from-violet-500 to-fuchsia-500 shadow-fuchsia-500 shadow-sm text-blue-300 px-3 py-2 hover:bg-blue-500">Book
                     with Us</a>
             </span>
         </div>
-        <div class="flex pr-80 backdrop-blur-sm sm:backdrop-blur-sm">
-            <img src="pexels-george-milton-7014711.png" alt="" class="w-100 rounded-md ">
-            <img src="IMG_3865.png" alt="" class="w-100 rounded-md">
+        <div class="flex pr-80 backdrop-blur-sm sm:backdrop-blur-sm box-shadow shadow-md shadow-black">
+            <img src="pexels-george-milton-7014711.png" alt="" class="sm:w-100 rounded-md ">
+            <img src="IMG_3865.png" alt="" class="w-[100%] sm:w-100 rounded-md">
+        </div>
+        <div
+            class="absolute hidden sm:block left-[50%] bottom-0 border-1 border-linear-to-bl from-gray-300 to-gray-600 pt-5 pl-3 pr-32 pb-5 bg-white rounded-xl">
+            <div class="flex flex-row">
+                <p>trtttttttttttttttttt</p>
+            </div>
+            <div>
+                <p>
+                </p>
+            </div>
         </div>
     </div>
-    <div class="flex sm:flex-col md:flex-row mt-5 justify-center items-center">
+
+    <div class="flex flex-col sm:flex-col md:flex-row mt-5 justify-center items-center">
         <div>
             <div id="default-carousel" class="relative " data-carousel="slide">
                 <div class="relative w-100 h-100 overflow-hidden rounded-lg sm:h-120 md:h-100">
@@ -160,7 +171,7 @@
             </div>
         </div>
 
-        <div class="sm:p-5 ">
+        <div class="pl-5 sm:pl-0 sm:p-5 ml-10">
             <p class="text-[40px]">Why Choose Us <span>
                     <ul>
                         <li>&rarr;Professional equipment and expertise</li>
@@ -172,22 +183,19 @@
                     <p class="text-[40px]">Get in Touch
                         <span class="text-[20px] block">
                             Looking for a photographer who can capture your special moments,<br>we'd love to hear
-                            from
-                            you!
-                            Contact us today to learn more <br>about our services and schedule a session.
+                            from you! Contact us today to learn more <br>about our services and schedule a session.
                         </span>
                     </p>
                 </span>
             </p>
         </div>
     </div>
-    </div>
     <div class="mt-5 cursor:pointer">
         <p class="p-15 text-center text-black text-[40px] font-bold hover:text-linear-to-bl from-gray-100 to-white ">
             Gallery</p>
     </div>
-    <div id="default-carousel" class="relative " data-carousel="slide">
-        <div class="relative  h-100 overflow-hidden rounded-lg sm:h-200 md:w-full md:h-400">
+    <div id="default-carousel" class="relative flex justify-center" data-carousel="slide">
+        <div class="relative overflow-hidden rounded-lg h-100 w-130 sm:h-200 md:w-[80%]">
             <div class=" duration-700 ease-in-out" data-carousel-item>
                 <img src="494888724_17963792756868969_2212572242576103799_n.jpg"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
@@ -227,7 +235,7 @@
         </div>
 
         <button type="button"
-            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            class="absolute bottom-50 sm:bottom-[50%] start-0 z-30 flex items-center justify-center w-[25%] px-4 cursor-pointer group focus:outline-none"
             data-carousel-prev>
             <span
                 class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -240,7 +248,7 @@
             </span>
         </button>
         <button type="button"
-            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            class="absolute bottom-50 sm:top-[50%] end-0 z-30 flex items-center justify-center w-[25%] px-4 cursor-pointer group focus:outline-none"
             data-carousel-next>
             <span
                 class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -257,25 +265,25 @@
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31652.633291725488!2d3.873615560679764!3d7.400959935251874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039ede8da76eead%3A0x989650dcbb9b3950!2sThe%20Immaculate%20Group!5e0!3m2!1sen!2sng!4v1747986318363!5m2!1sen!2sng"
             width="1890" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade " class="sm:w-155 md:w-full"></iframe>
+            referrerpolicy="no-referrer-when-downgrade " class="w-112 sm:w-155 md:w-full"></iframe>
     </div>
-    <div class="flex flex-row justify-center items-center gap-3 mt-3 sm:p-3 md:p-none">
+    <div class="border-3 py-4  sm:border-none flex flex-col sm:flex-row justify-center items-center gap-3 mt-3  sm:p-3 md:p-none">
         <form class="">
-            <input type="text" placeholder="Name" class="border-3 sm:pr-25 md:pr-50 pt-5 pb-5 text-[20px] pl-3 ">
+            <input type="text" placeholder="Name" class="border-3 pr-45 m-4 sm:m-0 sm:pr-25 md:pr-50 pt-5 pb-5 text-[20px] sm:pl-3 ">
             <input type="number" placeholder="Contact"
-                class="border-3 sm:pr-25 md:pr-50 pt-5 pb-5 text-[20px] pl-3 sm:mt-3 md:mt-none">
+                class="border-3 pr-45 sm:pr-25 md:pr-50 pt-5 pb-5 text-[20px] m-4 sm:m-0 sm:pl-3 sm:mt-3 md:mt-none">
         </form>
         <div>
             <input type="field" placeholder="Message"
-                class="border-3 sm:pr-25 md:pr-50 pt-5 pb-15 text-[20px] pl-3 sm:mt-3 md:mt-none">
+                class="border-3 pr-30 sm:pr-25 md:pr-50 pt-5 pb-15 text-[20px] pl-3 m-3 sm:m-0 sm:mt-3 md:mt-none">
         </div>
         <div>
             <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=SamwhaleImagery@gmail.com"
-                class="border bg-linear-to-bl from-violet-500 to-fuchsia-500 px-4 py-3 text-gray-300">Submit</a>
+                class="border bg-linear-to-bl from-violet-500 to-fuchsia-500 px-6 py-3  text-gray-300">Submit</a>
         </div>
     </div>
     <div
-        class="bg-linear-to-bl from-gray-700 to-gray-400 flex sm:flex-col md:flex-row md:items-center md:justify-between mt-5 p-8">
+        class="bg-linear-to-bl from-gray-700 to-gray-400 flex flex-col sm:flex-col md:flex-row md:items-center md:justify-between mt-5 p-8">
         <img src="20250504_023755.png" alt="" class="w-[20%] h-[10%] sm:hidden md:block">
         <div>
             <p class="text-[28px] sm:text-[20px] md:text-[28px] font-bold text-white">What we offer
